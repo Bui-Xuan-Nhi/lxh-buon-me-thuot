@@ -1,709 +1,627 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Lái xe hộ Buôn Mê Thuột</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lái xe hộ Buôn Mê Thuột</title>
 
-		<!-- Link Bootstrap -->
+    <!-- Link Bootstrap -->
 
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-		/>
-		<script
-			src="https://kit.fontawesome.com/1dc1877525.js"
-			crossorigin="anonymous"
-		></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1dc1877525.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-		<!-- Link Font -->
+    <!-- Link Font -->
 
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-			rel="stylesheet"
-		/>
-		<!-- Link css  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link css  -->
 
-		<link rel="stylesheet" href="./styles/index.css" />
-		<link rel="stylesheet" href="./styles/contact-method.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/contact-method.css" />
 
-		<!-- Google Tag Manager -->
-		<script>
-			(function (w, d, s, l, i) {
-				w[l] = w[l] || [];
-				w[l].push({
-					"gtm.start": new Date().getTime(),
-					event: "gtm.js",
-				});
-				var f = d.getElementsByTagName(s)[0],
-					j = d.createElement(s),
-					dl = l != "dataLayer" ? "&l=" + l : "";
-				j.async = true;
-				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-				f.parentNode.insertBefore(j, f);
-			})(window, document, "script", "dataLayer", "GTM-WQXJ996T");
-		</script>
-		<!-- End Google Tag Manager -->
-	</head>
-	<body>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript
-			><iframe
-				src="https://www.googletagmanager.com/ns.html?id=GTM-WQXJ996T"
-				height="0"
-				width="0"
-				style="display: none; visibility: hidden"
-			></iframe
-		></noscript>
-		<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WQXJ996T");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WQXJ996T"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-		<!-- Navigator mobile  -->
+    <!-- Navigator mobile  -->
 
-		<div id="body_overlay"></div>
-		<div class="container-fluid ds">
-			<div class="menu-small">
-				<div class="row">
-					<div class="col-lg-12">
-						<nav class="hide menu-mobile">
-							<div class="close-wrapper">
-								<i class="fa-solid fa-xmark"></i>
-							</div>
-							<div class="logo-menu-mobile text-center">
-								<a href="./index.html"
-									><img src="./assets/images/logo.png" alt=""
-								/></a>
-							</div>
-							<ul>
-								<li>
-									<a href="./index.html" class="active"
-										>Trang chủ</a
-									>
-								</li>
-								<li>
-									<a href="./views/introduce.html"
-										>Giới thiệu</a
-									>
-								</li>
-								<li>
-									<a href="./views/new.html">Tin tức</a>
-								</li>
-								<li class="find-driver">
-									<a href="" class="set-href-phone">
-										TÌM TÀI XẾ NGAY
-									</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div id="body_overlay"></div>
+    <div class="container-fluid ds">
+      <div class="menu-small">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="hide menu-mobile">
+              <div class="close-wrapper">
+                <i class="fa-solid fa-xmark"></i>
+              </div>
+              <div class="logo-menu-mobile text-center">
+                <a href="./index.html"
+                  ><img src="./assets/images/logo.png" alt=""
+                /></a>
+              </div>
+              <ul>
+                <li>
+                  <a href="./index.html" class="active">Trang chủ</a>
+                </li>
+                <li>
+                  <a href="./views/introduce.html">Giới thiệu</a>
+                </li>
+                <li>
+                  <a href="./views/new.html">Tin tức</a>
+                </li>
+                <li class="find-driver">
+                  <a href="" class="set-href-phone"> TÌM TÀI XẾ NGAY </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- Navigator web-->
+    <!-- Navigator web-->
 
-		<div class="container-fluid navigator-web">
-			<div class="container">
-				<div class="row">
-					<div class="navigator">
-						<div class="logo-web">
-							<img src="./assets/images/logo.png" alt="" />
-						</div>
-						<div class="menu-items">
-							<ul>
-								<li>
-									<a href="./index.html" class="active"
-										>Trang chủ</a
-									>
-								</li>
-								<li>
-									<a href="./views/introduce.html"
-										>Giới thiệu</a
-									>
-								</li>
-								<li><a href="./views/new.html">Tin tức</a></li>
-								<li class="btn-find-driver">
-									<a href="" class="set-href-phone">
-										TÌM TÀI XẾ NGAY
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="toggle-menu" id="menu-son">
-							<i class="fa-solid fa-bars"></i>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="container-fluid navigator-web">
+      <div class="container">
+        <div class="row">
+          <div class="navigator">
+            <div class="logo-web">
+              <img src="./assets/images/logo.png" alt="" />
+            </div>
+            <div class="menu-items">
+              <ul>
+                <li>
+                  <a href="./index.html" class="active">Trang chủ</a>
+                </li>
+                <li>
+                  <a href="./views/introduce.html">Giới thiệu</a>
+                </li>
+                <li><a href="./views/new.html">Tin tức</a></li>
+                <li class="btn-find-driver">
+                  <a href="" class="set-href-phone"> TÌM TÀI XẾ NGAY </a>
+                </li>
+              </ul>
+            </div>
+            <div class="toggle-menu" id="menu-son">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- banner -->
+    <!-- banner -->
 
-		<div>
-			<img src="./assets/images/banner.png" alt="" class="w-100" />
-		</div>
+    <div>
+      <img src="./assets/images/banner.png" alt="" class="w-100" />
+    </div>
 
-		<!-- introduce -->
+    <!-- introduce -->
 
-		<div class="container-fluid section-introduce">
-			<div class="container">
-				<div class="stats-content">
-					<div class="status-images">
-						<img
-							src="./assets/images/banner-introduce.jpg"
-							alt=""
-						/>
-						<div class="contact-container">
-							<div class="slogan">
-								<p>Bạn uống - Tôi lái</p>
-							</div>
-							<div class="call-me">
-								<a href="" class="set-href-phone"
-									>Liên hệ :
-									<span class="set-value-phone"></span>
-								</a>
-							</div>
-						</div>
-						<div class="stat-card stat-card-2">
-							<div class="stat-label">Tỉ lệ phản hồi</div>
-							<div class="stat-value">100%</div>
-						</div>
-						<div class="decorative-star"></div>
-					</div>
+    <div class="container-fluid section-introduce">
+      <div class="container">
+        <div class="stats-content">
+          <div class="status-images">
+            <img src="./assets/images/banner-introduce.jpg" alt="" />
+            <div class="contact-container">
+              <div class="slogan">
+                <p>Bạn uống - Tôi lái</p>
+              </div>
+              <div class="call-me">
+                <a href="" class="set-href-phone"
+                  >Liên hệ :
+                  <span class="set-value-phone"></span>
+                </a>
+              </div>
+            </div>
+            <div class="stat-card stat-card-2">
+              <div class="stat-label">Tỉ lệ phản hồi</div>
+              <div class="stat-value">100%</div>
+            </div>
+            <div class="decorative-star"></div>
+          </div>
 
-					<div class="stats-text">
-						<h2 class="stats-title">Lái Xe Hộ Cho Người Say</h2>
-						<p class="stats-description">
-							Dịch vụ lái xe hộ cho người say tại Hà Nội
-							<br />
-							Dịch vụ lái xe hộ người say uy tín, phục vụ
-							<b>24/7</b> trên toàn khu vực, đảm bảo
-							<b>an toàn - nhanh chóng - chuyên nghiệp</b>.
-							<br />
-							Tài xế có mặt sau 5 phút gọi
-							<b
-								>đưa khách hàng về nhà an toàn, đi sự kiện, hay
-								di chuyển công tác.</b
-							>
-							<br />
-						</p>
+          <div class="stats-text">
+            <h2 class="stats-title">Lái Xe Hộ Cho Người Say</h2>
+            <p class="stats-description">
+              Dịch vụ lái xe hộ cho người say tại Hà Nội
+              <br />
+              Dịch vụ lái xe hộ người say uy tín, phục vụ
+              <b>24/7</b> trên toàn khu vực, đảm bảo
+              <b>an toàn - nhanh chóng - chuyên nghiệp</b>.
+              <br />
+              Tài xế có mặt sau 5 phút gọi
+              <b
+                >đưa khách hàng về nhà an toàn, đi sự kiện, hay di chuyển công
+                tác.</b
+              >
+              <br />
+            </p>
 
-						<a href="" class="btn-learn-more set-href-phone"
-							>Liên hệ ngay</a
-						>
-					</div>
-				</div>
-			</div>
-		</div>
+            <a href="" class="btn-learn-more set-href-phone">Liên hệ ngay</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- why chose we -->
+    <!-- why chose we -->
 
-		<div class="container py-5">
-			<div class="row">
-				<div class="header-why-we text-center">
-					<h2>vì sao chọn chúng tôi</h2>
-					<p>Chúng tôi luôn cố gắng để bạn dể dàng hơn khi đặt xe</p>
-				</div>
-			</div>
-			<div class="row mt-3">
-				<div class="col-lg-4 col-md-4 col-12 items-why-we">
-					<div
-						class="d-flex flex-column gap-3 align-items-center text-center"
-					>
-						<img
-							src="./assets/icons/icon_map.svg"
-							alt=""
-							class="img-icon"
-						/>
-						<div class="title-why-we">Tài xế chuyên nghiệp</div>
-						<div class="content-why-we">
-							Tất cả tài xế đều có giấy phép lái xe hợp lệ, nhiều
-							năm kinh nghiệm và được đào tạo bài bản về an toàn
-							giao thông, thái độ phục vụ.
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12 items-why-we">
-					<div
-						class="d-flex flex-column gap-3 align-items-center text-center"
-					>
-						<img
-							src="./assets/icons/icon_support.svg"
-							alt=""
-							class="img-icon"
-						/>
-						<div class="title-why-we">Hỗ trợ 24/7</div>
-						<div class="content-why-we">
-							Đội ngũ chăm sóc khách hàng luôn sẵn sàng hỗ trợ đặt
-							chuyến, thay đổi lịch, hoặc phản hồi nhanh chóng mọi
-							yêu cầu của bạn — kể cả ngày lễ, Tết.
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12 items-why-we">
-					<div
-						class="d-flex flex-column gap-3 align-items-center text-center"
-					>
-						<img
-							src="./assets/icons/icon_building.svg"
-							alt=""
-							class="img-icon"
-						/>
-						<div class="title-why-we">An tâm đặt chuyến</div>
-						<div class="content-why-we">
-							Không tính phí hủy trong vòng 1 giờ sau khi đặt.
-							Hoàn tiền 100% nếu tài xế hủy chuyến trước 7 ngày
-							khởi hành. Mọi giao dịch minh bạch, rõ ràng.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="container py-5">
+      <div class="row">
+        <div class="header-why-we text-center">
+          <h2>vì sao chọn chúng tôi</h2>
+          <p>Chúng tôi luôn cố gắng để bạn dể dàng hơn khi đặt xe</p>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-4 col-md-4 col-12 items-why-we">
+          <div class="d-flex flex-column gap-3 align-items-center text-center">
+            <img src="./assets/icons/icon_map.svg" alt="" class="img-icon" />
+            <div class="title-why-we">Tài xế chuyên nghiệp</div>
+            <div class="content-why-we">
+              Tất cả tài xế đều có giấy phép lái xe hợp lệ, nhiều năm kinh
+              nghiệm và được đào tạo bài bản về an toàn giao thông, thái độ phục
+              vụ.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12 items-why-we">
+          <div class="d-flex flex-column gap-3 align-items-center text-center">
+            <img
+              src="./assets/icons/icon_support.svg"
+              alt=""
+              class="img-icon"
+            />
+            <div class="title-why-we">Hỗ trợ 24/7</div>
+            <div class="content-why-we">
+              Đội ngũ chăm sóc khách hàng luôn sẵn sàng hỗ trợ đặt chuyến, thay
+              đổi lịch, hoặc phản hồi nhanh chóng mọi yêu cầu của bạn — kể cả
+              ngày lễ, Tết.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12 items-why-we">
+          <div class="d-flex flex-column gap-3 align-items-center text-center">
+            <img
+              src="./assets/icons/icon_building.svg"
+              alt=""
+              class="img-icon"
+            />
+            <div class="title-why-we">An tâm đặt chuyến</div>
+            <div class="content-why-we">
+              Không tính phí hủy trong vòng 1 giờ sau khi đặt. Hoàn tiền 100%
+              nếu tài xế hủy chuyến trước 7 ngày khởi hành. Mọi giao dịch minh
+              bạch, rõ ràng.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- set process car -->
+    <!-- set process car -->
 
-		<div class="container-fluid mt-5 ps-4 pe-4 mb-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<div class="title-procedure">
-							<h2>quy trình thuê lái xe hộ</h2>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="hidden">
-					<div class="row-first">
-						<div class="items-one">
-							<div class="img-items-one">
-								<img src="./assets/icons/icon1.png" alt="" />
-							</div>
-							<div class="content-items-one">
-								<p>
-									Tiếp nhận thông tin khách hàng báo giá cước
-								</p>
-							</div>
-						</div>
-						<div class="items-one">
-							<div class="img-items-one">
-								<img src="./assets/icons/icon3.png" alt="" />
-							</div>
-							<div class="content-items-one">
-								<p>
-									Khách hàng bàn giao xe (Vật chất trên xe)
-									cho lái xe
-								</p>
-							</div>
-						</div>
-						<div class="items-one">
-							<div class="img-items-one">
-								<img src="./assets/icons/icon5.png" alt="" />
-							</div>
-							<div class="content-items-one">
-								<p>
-									Lái xe bàn giao xe (Vật chất trên xe) cho
-									khách hàng
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="images-procedure">
-						<span>
-							<img
-								src="./assets/images/prrocedure.png"
-								alt=""
-								class="w-100"
-							/>
-						</span>
-					</div>
-					<div class="row-two">
-						<div class="items-one">
-							<div class="img-items-one">
-								<img src="./assets/icons/icon2.png" alt="" />
-							</div>
-							<div class="content-items-one">
-								<p>
-									Lái xe di chuyển đến vị trí đón xe khoảng 5p
-								</p>
-							</div>
-						</div>
-						<div class="items-one">
-							<div class="img-items-one">
-								<img src="./assets/icons/icon4.png" alt="" />
-							</div>
-							<div class="content-items-one">
-								<p>Đưa khách hàng + xe đến điểm yêu cầu</p>
-							</div>
-						</div>
-						<div class="items-one">
-							<div class="img-items-one">
-								<img src="./assets/icons/icon6.png" alt="" />
-							</div>
-							<div class="content-items-one">
-								<p>
-									Khách hàng kiểm tra xe thanh toán cước phí
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container srction-procedure-mobile">
-			<div class="flex flex-wrap">
-				<div class="d-flex space-x-3 align-items-center mb-3">
-					<div class="size-14 img__contain">
-						<img
-							decoding="async"
-							src="./assets/icons/icon1.png"
-							alt="Tiếp nhận thông tin khách hàng báo giá cước"
-						/>
-					</div>
-					<p class="font-semibold">
-						Tiếp nhận thông tin khách hàng báo giá cước
-					</p>
-				</div>
-				<div class="d-flex space-x-3 align-items-center mb-3">
-					<div class="size-14 img__contain">
-						<img
-							decoding="async"
-							src="./assets/icons/icon2.png"
-							alt="Lái xe di chuyển đến vị trí đón xe khoảng 5p "
-						/>
-					</div>
-					<p class="font-semibold">
-						Lái xe di chuyển đến vị trí đón xe khoảng 5p
-					</p>
-				</div>
-				<div class="d-flex space-x-3 align-items-center mb-3">
-					<div class="size-14 img__contain">
-						<img
-							decoding="async"
-							src="./assets/icons/icon3.png"
-							alt="Khách hàng  bàn giao xe (Vật chất trên xe) cho lái xe"
-						/>
-					</div>
-					<p class="font-semibold">
-						Khách hàng bàn giao xe (Vật chất trên xe) cho lái xe
-					</p>
-				</div>
-				<div class="d-flex space-x-3 align-items-center mb-3">
-					<div class="size-14 img__contain">
-						<img
-							decoding="async"
-							src="./assets/icons/icon4.png"
-							alt="Đưa khách hàng + xe đến điểm yêu cầu"
-						/>
-					</div>
-					<p class="font-semibold">
-						Đưa khách hàng + xe đến điểm yêu cầu
-					</p>
-				</div>
-				<div class="d-flex space-x-3 align-items-center mb-3">
-					<div class="size-14 img__contain">
-						<img
-							decoding="async"
-							src="./assets/icons/icon5.png"
-							alt="Lái xe  bàn giao xe (Vật chất trên xe) cho khách hàng"
-						/>
-					</div>
-					<p class="font-semibold">
-						Lái xe bàn giao xe (Vật chất trên xe) cho khách hàng
-					</p>
-				</div>
-				<div class="d-flex space-x-3 align-items-center mb-3">
-					<div class="size-14 img__contain">
-						<img
-							decoding="async"
-							src="./assets/icons/icon6.png"
-							alt="Khách hàng kiểm tra xe thanh toán cước phí"
-						/>
-					</div>
-					<p class="font-semibold">
-						Khách hàng kiểm tra xe thanh toán cước phí
-					</p>
-				</div>
-			</div>
-		</div>
+    <div class="container-fluid mt-5 ps-4 pe-4 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="title-procedure">
+              <h2>quy trình thuê lái xe hộ</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="hidden">
+          <div class="row-first">
+            <div class="items-one">
+              <div class="img-items-one">
+                <img src="./assets/icons/icon1.png" alt="" />
+              </div>
+              <div class="content-items-one">
+                <p>Tiếp nhận thông tin khách hàng báo giá cước</p>
+              </div>
+            </div>
+            <div class="items-one">
+              <div class="img-items-one">
+                <img src="./assets/icons/icon3.png" alt="" />
+              </div>
+              <div class="content-items-one">
+                <p>Khách hàng bàn giao xe (Vật chất trên xe) cho lái xe</p>
+              </div>
+            </div>
+            <div class="items-one">
+              <div class="img-items-one">
+                <img src="./assets/icons/icon5.png" alt="" />
+              </div>
+              <div class="content-items-one">
+                <p>Lái xe bàn giao xe (Vật chất trên xe) cho khách hàng</p>
+              </div>
+            </div>
+          </div>
+          <div class="images-procedure">
+            <span>
+              <img src="./assets/images/prrocedure.png" alt="" class="w-100" />
+            </span>
+          </div>
+          <div class="row-two">
+            <div class="items-one">
+              <div class="img-items-one">
+                <img src="./assets/icons/icon2.png" alt="" />
+              </div>
+              <div class="content-items-one">
+                <p>Lái xe di chuyển đến vị trí đón xe khoảng 5p</p>
+              </div>
+            </div>
+            <div class="items-one">
+              <div class="img-items-one">
+                <img src="./assets/icons/icon4.png" alt="" />
+              </div>
+              <div class="content-items-one">
+                <p>Đưa khách hàng + xe đến điểm yêu cầu</p>
+              </div>
+            </div>
+            <div class="items-one">
+              <div class="img-items-one">
+                <img src="./assets/icons/icon6.png" alt="" />
+              </div>
+              <div class="content-items-one">
+                <p>Khách hàng kiểm tra xe thanh toán cước phí</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container srction-procedure-mobile">
+      <div class="flex flex-wrap">
+        <div class="d-flex space-x-3 align-items-center mb-3">
+          <div class="size-14 img__contain">
+            <img
+              decoding="async"
+              src="./assets/icons/icon1.png"
+              alt="Tiếp nhận thông tin khách hàng báo giá cước"
+            />
+          </div>
+          <p class="font-semibold">
+            Tiếp nhận thông tin khách hàng báo giá cước
+          </p>
+        </div>
+        <div class="d-flex space-x-3 align-items-center mb-3">
+          <div class="size-14 img__contain">
+            <img
+              decoding="async"
+              src="./assets/icons/icon2.png"
+              alt="Lái xe di chuyển đến vị trí đón xe khoảng 5p "
+            />
+          </div>
+          <p class="font-semibold">
+            Lái xe di chuyển đến vị trí đón xe khoảng 5p
+          </p>
+        </div>
+        <div class="d-flex space-x-3 align-items-center mb-3">
+          <div class="size-14 img__contain">
+            <img
+              decoding="async"
+              src="./assets/icons/icon3.png"
+              alt="Khách hàng  bàn giao xe (Vật chất trên xe) cho lái xe"
+            />
+          </div>
+          <p class="font-semibold">
+            Khách hàng bàn giao xe (Vật chất trên xe) cho lái xe
+          </p>
+        </div>
+        <div class="d-flex space-x-3 align-items-center mb-3">
+          <div class="size-14 img__contain">
+            <img
+              decoding="async"
+              src="./assets/icons/icon4.png"
+              alt="Đưa khách hàng + xe đến điểm yêu cầu"
+            />
+          </div>
+          <p class="font-semibold">Đưa khách hàng + xe đến điểm yêu cầu</p>
+        </div>
+        <div class="d-flex space-x-3 align-items-center mb-3">
+          <div class="size-14 img__contain">
+            <img
+              decoding="async"
+              src="./assets/icons/icon5.png"
+              alt="Lái xe  bàn giao xe (Vật chất trên xe) cho khách hàng"
+            />
+          </div>
+          <p class="font-semibold">
+            Lái xe bàn giao xe (Vật chất trên xe) cho khách hàng
+          </p>
+        </div>
+        <div class="d-flex space-x-3 align-items-center mb-3">
+          <div class="size-14 img__contain">
+            <img
+              decoding="async"
+              src="./assets/icons/icon6.png"
+              alt="Khách hàng kiểm tra xe thanh toán cước phí"
+            />
+          </div>
+          <p class="font-semibold">
+            Khách hàng kiểm tra xe thanh toán cước phí
+          </p>
+        </div>
+      </div>
+    </div>
 
-		<!-- services -->
+    <!-- services -->
 
-		<div class="container my-5">
-			<div class="row">
-				<div class="title-services pt-4 pb-2">
-					<h2>Các dịch vụ của chúng tôi</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-12">
-					<div class="features text-center">
-						<img src="./assets/images/f1.png" alt="" />
-						<h6 class="mt-4">Lái xe hộ đưa người say về nhà</h6>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12">
-					<div class="features text-center">
-						<img src="./assets/images/f2.jpg" alt="" />
-						<h6 class="mt-4">Dịch vụ tài xế theo ngày</h6>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12">
-					<div class="features text-center">
-						<img src="./assets/images/f3.png" alt="" />
-						<h6 class="mt-4">Dịch vụ taxi đưa đón sân bay</h6>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-12">
-					<div class="features text-center">
-						<img src="./assets/images/f4.png" alt="" />
-						<h6 class="mt-4">Dịch vụ cho thuê xe</h6>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12">
-					<div class="features text-center">
-						<img src="./assets/images/f5.png" alt="" />
-						<h6 class="mt-4">Dịch vụ đăng kiểm hộ</h6>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-12">
-					<div class="features text-center">
-						<img src="./assets/images/f6.png" alt="" />
-						<h6 class="mt-4">Dịch vụ vận chuyển xe</h6>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="title-services pt-4 pb-2">
+          <h2>Các dịch vụ của chúng tôi</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="features text-center">
+            <img src="./assets/images/f1.png" alt="" />
+            <h6 class="mt-4">Lái xe hộ đưa người say về nhà</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="features text-center">
+            <img src="./assets/images/f2.jpg" alt="" />
+            <h6 class="mt-4">Dịch vụ tài xế theo ngày</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="features text-center">
+            <img src="./assets/images/f3.png" alt="" />
+            <h6 class="mt-4">Dịch vụ taxi đưa đón sân bay</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="features text-center">
+            <img src="./assets/images/f4.png" alt="" />
+            <h6 class="mt-4">Dịch vụ cho thuê xe</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="features text-center">
+            <img src="./assets/images/f5.png" alt="" />
+            <h6 class="mt-4">Dịch vụ đăng kiểm hộ</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="features text-center">
+            <img src="./assets/images/f6.png" alt="" />
+            <h6 class="mt-4">Dịch vụ vận chuyển xe</h6>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- pricing  -->
+    <!-- pricing  -->
 
-		<div class="container">
-			<div class="pricing-content">
-				<h2 class="pricing-title">Bảng giá dịch vụ rỏ ràng</h2>
-				<p class="pricing-subtitle">
-					Giá cả phù hợp rẻ nhất thị trường
-				</p>
-			</div>
+    <div class="container">
+      <div class="pricing-content">
+        <h2 class="pricing-title">Bảng giá dịch vụ rỏ ràng</h2>
+        <p class="pricing-subtitle">Giá cả phù hợp rẻ nhất thị trường</p>
+      </div>
 
-			<!-- Pricing Table -->
-			<div class="pricing-table">
-				<table class="price-table">
-					<thead>
-						<tr>
-							<th>Loại phí</th>
-							<th>Trước 22h</th>
-							<th class="featured-header">
-								<span class="popular-badge-header"
-									>★ PHỔ BIẾN ★</span
-								>
-								22h - 24h
-							</th>
-							<th>Sau 24h</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr class="price-row">
-							<td class="fee-type">5km đầu</td>
-							<td class="base-price">250.000đ</td>
-							<td class="base-price">270.000đ</td>
-							<td class="base-price">299.000đ</td>
-						</tr>
-						<tr class="price-row">
-							<td class="fee-type">6-10km</td>
-							<td class="km-price">+20.000đ/km</td>
-							<td class="km-price">+25.000đ/km</td>
-							<td class="km-price">+25.000đ/km</td>
-						</tr>
-						<tr class="price-row">
-							<td class="fee-type">Trên 10km</td>
-							<td class="km-price">+15.000đ/km</td>
-							<td class="km-price">+20.000đ/km</td>
-							<td class="km-price">+20.000đ/km</td>
-						</tr>
-						<tr class="price-row">
-							<td class="fee-type">Phí chờ (30p)</td>
-							<td class="wait-fee">30.000đ</td>
-							<td class="wait-fee">50.000đ</td>
-							<td class="wait-fee">70.000đ</td>
-						</tr>
-						<tr class="price-row">
-							<td class="fee-type">Phụ thu mưa</td>
-							<td class="rain-fee">30.000đ</td>
-							<td class="rain-fee">30.000đ</td>
-							<td class="rain-fee">30.000đ</td>
-						</tr>
-					</tbody>
-				</table>
-				<div class="pricing-notes">
-					<div class="note-item">
-						<span class="note-icon">📍</span>
-						<span class="note-text"
-							>Chỉ với 250.000đ / 5km đầu</span
-						>
-					</div>
-					<div class="note-item">
-						<span class="note-icon">🚗</span>
-						<span class="note-text"
-							>Giá đã bao gồm phí nhiên liệu và tài xế chuyên
-							nghiệp</span
-						>
-					</div>
-					<div class="note-item">
-						<span class="note-icon">💳</span>
-						<span class="note-text"
-							>Thanh toán linh hoạt: Tiền mặt, chuyển khoản</span
-						>
-					</div>
-				</div>
-			</div>
-		</div>
+      <!-- Pricing Table -->
+      <div class="pricing-table">
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th>Loại phí</th>
+              <th>Trước 22h</th>
+              <th class="featured-header">
+                <span class="popular-badge-header">★ PHỔ BIẾN ★</span>
+                22h - 24h
+              </th>
+              <th>Sau 24h</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="price-row">
+              <td class="fee-type">5km đầu</td>
+              <td class="base-price">250.000đ</td>
+              <td class="base-price">270.000đ</td>
+              <td class="base-price">299.000đ</td>
+            </tr>
+            <tr class="price-row">
+              <td class="fee-type">6-10km</td>
+              <td class="km-price">+20.000đ/km</td>
+              <td class="km-price">+25.000đ/km</td>
+              <td class="km-price">+25.000đ/km</td>
+            </tr>
+            <tr class="price-row">
+              <td class="fee-type">Trên 10km</td>
+              <td class="km-price">+15.000đ/km</td>
+              <td class="km-price">+20.000đ/km</td>
+              <td class="km-price">+20.000đ/km</td>
+            </tr>
+            <tr class="price-row">
+              <td class="fee-type">Phí chờ (30p)</td>
+              <td class="wait-fee">30.000đ</td>
+              <td class="wait-fee">50.000đ</td>
+              <td class="wait-fee">70.000đ</td>
+            </tr>
+            <tr class="price-row">
+              <td class="fee-type">Phụ thu mưa</td>
+              <td class="rain-fee">30.000đ</td>
+              <td class="rain-fee">30.000đ</td>
+              <td class="rain-fee">30.000đ</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="pricing-notes">
+          <div class="note-item">
+            <span class="note-icon">📍</span>
+            <span class="note-text">Chỉ với 250.000đ / 5km đầu</span>
+          </div>
+          <div class="note-item">
+            <span class="note-icon">🚗</span>
+            <span class="note-text"
+              >Giá đã bao gồm phí nhiên liệu và tài xế chuyên nghiệp</span
+            >
+          </div>
+          <div class="note-item">
+            <span class="note-icon">💳</span>
+            <span class="note-text"
+              >Thanh toán linh hoạt: Tiền mặt, chuyển khoản</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- method booking -->
+    <!-- method booking -->
 
-		<div class="container mt-5">
-			<h3 class="booking-title mb-5">phương thức đặt dịch vụ</h3>
-			<div class="booking-method-grid mt-3">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-12 px-2 item-method">
-						<div class="method-icon">
-							<img
-								src="./assets/icons/Service 24_7-pana.png"
-								alt="Hotline"
-								class="method-icon-img"
-							/>
-						</div>
-						<p class="pb-3 pt-2 m-0 fw-bold fs-4">
-							Gọi trực tiếp hotline
-						</p>
-						<div>
-							<p
-								class="method-description method-description-centered"
-							>
-								Liên hệ
-								<strong class="set-value-phone"></strong> để
-								được tư vấn và đặt tài xế nhanh nhất
-							</p>
-						</div>
-						<a href="" class="set-href-phone btn-explore"
-							>Liên hệ ngay</a
-						>
-					</div>
-					<div class="col-lg-4 col-md-4 col-12 px-2 item-method">
-						<div class="method-icon">
-							<img
-								src="./assets/icons/zalo.png"
-								alt="Hotline"
-								class="method-icon-img"
-							/>
-						</div>
-						<p class="pb-3 pt-2 m-0 fw-bold fs-4">
-							Liên hệ qua Zalo
-						</p>
-						<div>
-							<p
-								class="method-description method-description-centered"
-							>
-								Nhắn tin qua Zalo để Đặt lái xe, gửi lộ trình và
-								nhận báo giá nhanh chóng.
-							</p>
-						</div>
-						<a href="" class="set-href-phone btn-explore"
-							>Liên hệ ngay</a
-						>
-					</div>
-					<div class="col-lg-4 col-md-4 col-12 px-2 item-method">
-						<div class="method-icon">
-							<img
-								src="./assets/icons/website.png"
-								alt="Hotline"
-								class="method-icon-img"
-							/>
-						</div>
-						<p class="pb-3 pt-2 m-0 fw-bold fs-4">
-							Đặt xe qua Website
-						</p>
-						<div>
-							<p
-								class="method-description method-description-centered"
-							>
-								Kết nối với chúng tôi qua Website Dịch vụ lái xe
-								hộ để xác nhận chuyến đi.
-							</p>
-						</div>
-						<a href="" class="set-href-phone btn-explore"
-							>Liên hệ ngay</a
-						>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="container mt-5">
+      <h3 class="booking-title mb-5">phương thức đặt dịch vụ</h3>
+      <div class="booking-method-grid mt-3">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12 px-2 item-method">
+            <div class="method-icon">
+              <img
+                src="./assets/icons/Service 24_7-pana.png"
+                alt="Hotline"
+                class="method-icon-img"
+              />
+            </div>
+            <p class="pb-3 pt-2 m-0 fw-bold fs-4">Gọi trực tiếp hotline</p>
+            <div>
+              <p class="method-description method-description-centered">
+                Liên hệ
+                <strong class="set-value-phone"></strong> để được tư vấn và đặt
+                tài xế nhanh nhất
+              </p>
+            </div>
+            <a href="" class="set-href-phone btn-explore">Liên hệ ngay</a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12 px-2 item-method">
+            <div class="method-icon">
+              <img
+                src="./assets/icons/zalo.png"
+                alt="Hotline"
+                class="method-icon-img"
+              />
+            </div>
+            <p class="pb-3 pt-2 m-0 fw-bold fs-4">Liên hệ qua Zalo</p>
+            <div>
+              <p class="method-description method-description-centered">
+                Nhắn tin qua Zalo để Đặt lái xe, gửi lộ trình và nhận báo giá
+                nhanh chóng.
+              </p>
+            </div>
+            <a href="" class="set-href-phone btn-explore">Liên hệ ngay</a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12 px-2 item-method">
+            <div class="method-icon">
+              <img
+                src="./assets/icons/website.png"
+                alt="Hotline"
+                class="method-icon-img"
+              />
+            </div>
+            <p class="pb-3 pt-2 m-0 fw-bold fs-4">Đặt xe qua Website</p>
+            <div>
+              <p class="method-description method-description-centered">
+                Kết nối với chúng tôi qua Website Dịch vụ lái xe hộ để xác nhận
+                chuyến đi.
+              </p>
+            </div>
+            <a href="" class="set-href-phone btn-explore">Liên hệ ngay</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- footer -->
+    <!-- footer -->
 
-		<div class="container-fluid bg-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-12">
-						<img
-							src="./assets/images/logo.png"
-							alt=""
-							class="logo-footer"
-						/>
-						<p class="title-footer">
-							Dịch vụ lái xe hộ Buôn Mê Thuột
-						</p>
-						<div class="contact-footer-section">
-							<a
-								href=""
-								class="set-href-phone"
-								style="color: black"
-								>Hotline : <span class="set-value-phone"></span
-							></a>
-							<p class="mt-3">Email : gohomedaklak@gmail.com</p>
-							<p>
-								Địa chỉ : Thành phố Buôn Mê Thuột, ĐắkLắk, Việt
-								Nam
-							</p>
-							<p>Website : Gohomedakalk.com</p>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-12">
-						<p class="title-footer">Dịch vụ</p>
-						<p>Lái xe hộ đưa người say về nhà</p>
-						<p>Dịch vụ tài xế theo ngày</p>
-						<p>Dịch vụ taxi đưa đón sân bay</p>
-						<p>Dịch vụ cho thuê xe</p>
-						<p>Dịch vụ đăng kiểm hộ</p>
-						<p>Dịch vụ vận chuyển xe</p>
-						<p class="title-footer">Chính sách</p>
-						<p>Chính sách quyền riêng tư</p>
-					</div>
-					<div class="col-lg-5 col-md-5 col-12">
-						<p class="title-footer">bản đồ chỉ đường</p>
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124569.49820295283!2d107.94530404688723!3d12.661322977888943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7d4216cd2fb%3A0x9f4a5ec2f999fb4!2zVHAuIEJ1w7RuIE1hIFRodeG7mXQsIMSQ4bqvayBM4bqvaywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1761972775284!5m2!1svi!2s"
-							width="100%"
-							height="310"
-							style="border: 0"
-							allowfullscreen=""
-							loading="lazy"
-							referrerpolicy="no-referrer-when-downgrade"
-						></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="container-fluid bg-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-12">
+            <img src="./assets/images/logo.png" alt="" class="logo-footer" />
+            <p class="title-footer">Dịch vụ lái xe hộ Buôn Mê Thuột</p>
+            <div class="contact-footer-section">
+              <a href="" class="set-href-phone" style="color: black"
+                >Hotline : <span class="set-value-phone"></span
+              ></a>
+              <p class="mt-3">Email : gohomedaklak@gmail.com</p>
+              <p>Địa chỉ : Thành phố Buôn Mê Thuột, ĐắkLắk, Việt Nam</p>
+              <p>Website : Gohomedakalk.com</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-12">
+            <p class="title-footer">Dịch vụ</p>
+            <p>Lái xe hộ đưa người say về nhà</p>
+            <p>Dịch vụ tài xế theo ngày</p>
+            <p>Dịch vụ taxi đưa đón sân bay</p>
+            <p>Dịch vụ cho thuê xe</p>
+            <p>Dịch vụ đăng kiểm hộ</p>
+            <p>Dịch vụ vận chuyển xe</p>
+            <p class="title-footer">Chính sách</p>
+            <p>Chính sách quyền riêng tư</p>
+          </div>
+          <div class="col-lg-5 col-md-5 col-12">
+            <p class="title-footer">bản đồ chỉ đường</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124569.49820295283!2d107.94530404688723!3d12.661322977888943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171f7d4216cd2fb%3A0x9f4a5ec2f999fb4!2zVHAuIEJ1w7RuIE1hIFRodeG7mXQsIMSQ4bqvayBM4bqvaywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1761972775284!5m2!1svi!2s"
+              width="100%"
+              height="310"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<!-- contact method -->
+    <!-- contact method -->
 
-		<div class="header-placeholder"></div>
+    <div class="header-placeholder"></div>
 
-		<!-- import file javascripts -->
+    <!-- import file javascripts -->
 
-		<script src="./js/contact.js"></script>
-	</body>
+    <script src="./js/contact.js"></script>
+  </body>
 </html>
